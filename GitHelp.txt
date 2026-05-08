@@ -11,3 +11,22 @@
    6) git add .       |
    7) git commit -m "name massage"
    8) git push origin master
+   9) git restore  . или путь к файлу
+   9) git reset . или путь к файлу
+   10) git branch
+   11) git branch name_branch
+   12) git switch name_branch
+
+
+
+production
+test|stage
+dev
+
+feat/register
+feat/booking
+
+"feat: added register code"
+"update: update register code"
+"fix: delete bag"
+"HotFix: delete bag"

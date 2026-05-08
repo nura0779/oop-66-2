@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-
 class Hero:
     def __init__(self,name, lvl, hp):
         self.name = name
@@ -16,7 +15,7 @@ class MageHero(Hero):
         self.hp = hp
         self.mp = mp
     def action(self):
-        return f"Маг{self.name} кастует заклинание! MP: {self.mp}"
+        return f"Маг {self.name} кастует заклинание! MP: {self.mp}"
 
 class WarriorHero(MageHero):
     def __init__(self,name, lvl, hp, mp):
