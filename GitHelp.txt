@@ -1,6 +1,6 @@
   Команды для регистрации ваших данных
   1) git config  --global user.name "nura0779"
-  2) git config  --global user.email "nurguls1510@gmail.com"
+  2) git config  --global user.email "nurguls1510@gmai.com"
 
    Команды только для одного проекта
    3) git init        | Инициализация Гита
@@ -8,4 +8,6 @@
 
 
    5) git status      | Статус
-   6) git add .       | 
+   6) git add .       |
+   7) git commit -m "name massage"
+   8) git push origin master 
