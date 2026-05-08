@@ -43,20 +43,16 @@ Warrior("Warrior", 100, 1000, 50, 100)
 Mage("Mage", 98, 100, 60, 500)
 Assassin("Assassin", 101, 100,70,98)
 
-heroes = {
-    "Warrior": Warrior,
-    "Mage": Mage,
-    "Assassin": Assassin
-}
+heroes = {"Warrior": Warrior, "Mage": Mage, "Assassin": Assassin}
 
-choice = input("Выбери героя: Warrior/Mage/Assassin: ")
-
+choice = input("Выбери героя: Warrior/Mage/Assassin: ").strip().capitalize()
 player = heroes[choice]
 enemy_name = random.choice(list(heroes.keys()))
 enemy = heroes[enemy_name]
 
 print("Вы выбрали:", choice)
 print("Противник:", enemy_name)
+
 if choice == enemy_name:
     print("Ничья")
 
